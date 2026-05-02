@@ -1,14 +1,3 @@
-# Generated dot-skill outputs (user data, not committed)
-skills/*
-!skills/colleague/
-skills/colleague/*
-!skills/colleague/example_zhangsan/
-!skills/colleague/example_zhangsan/**
-!skills/colleague/example_tianyi/
-!skills/colleague/example_tianyi/**
-!skills/colleague/example_jiaxiu/
-!skills/colleague/example_jiaxiu/**
-
 # Python
 __pycache__/
 *.py[cod]
@@ -17,17 +6,8 @@ __pycache__/
 venv/
 *.egg-info/
 
-# Config with credentials
-~/.colleague-skill/
-
-# Playwright browser data
-playwright-data/
-
-# Temp files
-/tmp/feishu_*.txt
-/tmp/email_*.txt
-/tmp/dingtalk_*.txt
-knowledge/
+# Index rebuild (optional: remove this line if you prefer committing chunks)
+# data/index/
 
 # OS
 .DS_Store
